@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.Adthena.BasketPricingTest, org.scalatest.tools.Framework$$anon$1@173befc3, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBasketPricingTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- calculatePrice should correctly calculate the total price[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- calculatePrice should handle an empty basket[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- applesDiscount should calculate 10% off for multiple Apple items[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- applesDiscount should return 0 discount when there are no Apples in the basket[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- soupBreadDiscount should calculate half price for Bread when buying 2 tins of Soup[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- soupBreadDiscount should return 0 discount when there is no eligible Bread in the basket[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 557 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 6[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 6, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.Adthena.BasketPricingTest[0m

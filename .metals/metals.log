@@ -666,3 +666,798 @@ WARNING: Unmatched cancel notification for request id 738
 2023.09.29 17:15:27 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
 2023.09.29 17:15:28 INFO  time: code lens generation in 1.03s
 2023.09.29 17:15:30 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.30 16:23:32 INFO  Started: Metals version 1.0.1 in folders 'D:\Akshat\CaseStudy\Adthena' for client Visual Studio Code 1.82.2.
+Sep 30, 2023 4:23:32 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 30, 2023 4:23:32 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 30, 2023 4:23:32 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 30, 2023 4:23:39 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:D:\Akshat\CaseStudy\Adthena\.metals\metals (H2 2.1)
+Sep 30, 2023 4:23:39 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.216s)
+Sep 30, 2023 4:23:39 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 30, 2023 4:23:39 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.30 16:23:40 INFO  time: initialize in 8.28s
+2023.09.30 16:23:48 INFO  Attempting to connect to the build server...
+2023.09.30 16:23:48 INFO  Bloop uses D:\Java defined at C:\Users\Lenovo\.bloop\bloop.json
+2023.09.30 16:23:49 INFO  skipping build import with status 'Installed'
+Sep 30, 2023 4:23:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2023.09.30 16:24:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Akshat\CaseStudy\Adthena\.metals\bsp.trace.json or C:\Users\Lenovo\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.30 16:24:12 INFO  no build target found for D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.09.30 16:24:17 INFO  Attempting to connect to the build server...
+2023.09.30 16:24:17 INFO  Bloop uses D:\Java defined at C:\Users\Lenovo\.bloop\bloop.json
+2023.09.30 16:24:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Akshat\CaseStudy\Adthena\project\.metals\bsp.trace.json or C:\Users\Lenovo\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.30 16:24:17 INFO  time: Connected to build server in 28s
+2023.09.30 16:24:17 INFO  Connected to Build server: Bloop v1.5.8
+2023.09.30 16:24:17 INFO  time: Imported build in 0.39s
+2023.09.30 16:24:19 INFO  time: code lens generation in 29s
+2023.09.30 16:24:59 INFO  time: indexed workspace in 41s
+2023.09.30 16:24:59 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.30 16:24:59 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.30 16:25:12 INFO  time: code lens generation in 6.78s
+2023.09.30 16:33:03 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\main\scala\BasketPricing.scala
+2023.09.30 16:33:06 INFO  time: code lens generation in 2.16s
+Sep 30, 2023 4:33:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 73
+Sep 30, 2023 4:33:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 77
+Sep 30, 2023 4:49:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 127
+2023.09.30 16:49:58 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.30 16:49:59 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.30 16:50:00 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.30 16:50:02 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.30 16:50:03 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.30 16:50:05 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.30 16:50:08 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.30 16:57:25 INFO  time: code lens generation in 2.59s
+2023.09.30 17:21:21 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+Sep 30, 2023 5:21:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 275
+2023.09.30 17:21:29 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.30 17:29:16 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\benchmark\scala\BasketPricingBenchmark.scala
+2023.09.30 17:29:24 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\benchmark\scala\BasketPricingBenchmark.scala
+Exception in thread "pool-6-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Exception in thread "pool-6-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Exception in thread "pool-6-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Sep 30, 2023 5:30:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 337
+2023.09.30 17:30:23 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\benchmark\scala\BasketPricingBenchmark.scala
+2023.09.30 17:39:39 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\benchmark\scala\BasketPricingBenchmark.scala
+Sep 30, 2023 5:40:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 368
+2023.09.30 17:41:24 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.30 17:41:26 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.30 17:58:53 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\main\scala\BasketPricing.scala
+Sep 30, 2023 5:58:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 433
+Sep 30, 2023 5:58:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 434
+Sep 30, 2023 5:58:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Akshat\CaseStudy\Adthena\.metals\.reports\metals-full\2023-09-30\r_compiler-error_17-58-54-537
+2023.09.30 17:58:59 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\main\scala\BasketPricing.scala
+2023.09.30 17:59:01 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\main\scala\BasketPricing.scala
+Sep 30, 2023 5:59:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Akshat\CaseStudy\Adthena\.metals\.reports\metals-full\2023-09-30\r_compiler-error_17-59-02-687
+2023.09.30 17:59:02 INFO  time: code lens generation in 5.76s
+2023.09.30 17:59:04 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\main\scala\BasketPricing.scala
+2023.09.30 17:59:06 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\main\scala\BasketPricing.scala
+Sep 30, 2023 5:59:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Akshat\CaseStudy\Adthena\.metals\.reports\metals-full\2023-09-30\r_compiler-error_17-59-07-118
+2023.09.30 17:59:07 INFO  time: code lens generation in 11s
+2023.09.30 17:59:09 INFO  time: code lens generation in 15s
+2023.09.30 17:59:09 INFO  time: code lens generation in 14s
+2023.09.30 17:59:09 INFO  time: code lens generation in 16s
+2023.09.30 17:59:09 INFO  time: code lens generation in 3.34s
+2023.09.30 17:59:09 INFO  time: code lens generation in 4.58s
+2023.09.30 17:59:09 INFO  time: code lens generation in 5.26s
+2023.09.30 17:59:09 INFO  time: code lens generation in 10s
+2023.09.30 17:59:09 INFO  time: code lens generation in 10s
+2023.09.30 17:59:09 INFO  time: code lens generation in 8.86s
+Exception in thread "pool-6-thread-4" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.09.30 17:59:30 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\main\scala\BasketPricing.scala
+2023.09.30 18:00:38 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\main\scala\BasketPricing.scala
+Sep 30, 2023 6:20:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 532
+Sep 30, 2023 6:20:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 533
+2023.09.30 18:20:07 WARN  Skipping build import, no checksum.
+2023.09.30 18:20:07 WARN  Skipping build import, no checksum.
+Sep 30, 2023 6:20:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Akshat\CaseStudy\Adthena\.metals\.reports\metals-full\2023-09-30\r_compiler-error_18-20-09-707
+2023.09.30 18:20:10 INFO  time: code lens generation in 4.14s
+2023.09.30 18:20:11 WARN  Skipping build import, no checksum.
+Sep 30, 2023 6:20:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Akshat\CaseStudy\Adthena\.metals\.reports\metals-full\2023-09-30\r_compiler-error_18-20-14-902
+2023.09.30 18:20:15 INFO  time: code lens generation in 4.93s
+2023.09.30 18:20:14 ERROR Failed to tokenize input for semantic tokens for D:\Akshat\CaseStudy\Adthena\build.sbt
+scala.meta.tokenizers.TokenizeException: <input>:13: error: unclosed string literal
+organization := "com.rockthejvl]
+                ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.09.30 18:20:15 INFO  time: code lens generation in 8.24s
+2023.09.30 18:20:15 INFO  time: code lens generation in 1.19s
+2023.09.30 18:20:15 INFO  time: code lens generation in 3.06s
+2023.09.30 18:20:18 INFO  skipping build import with status 'Dismissed'
+2023.09.30 18:20:22 INFO  skipping build import with status 'Dismissed'
+2023.09.30 18:20:26 INFO  skipping build import with status 'Dismissed'
+2023.09.30 18:20:33 INFO  skipping build import with status 'Dismissed'
+2023.09.30 18:20:38 INFO  skipping build import with status 'Dismissed'
+2023.09.30 18:21:15 INFO  skipping build import with status 'Dismissed'
+2023.09.30 18:21:42 INFO  skipping build import with status 'Dismissed'
+2023.09.30 18:22:04 INFO  skipping build import with status 'Dismissed'
+Sep 30, 2023 6:22:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 701
+Sep 30, 2023 6:22:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 705
+Sep 30, 2023 6:22:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 704
+2023.09.30 18:22:58 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\main\scala\BasketPricing.scala
+Sep 30, 2023 6:23:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 742
+Sep 30, 2023 6:23:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 743
+Sep 30, 2023 6:23:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 744
+Sep 30, 2023 6:23:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Akshat\CaseStudy\Adthena\.metals\.reports\metals-full\2023-09-30\r_compiler-error_18-23-02-231
+2023.09.30 18:23:02 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\main\scala\BasketPricing.scala
+Sep 30, 2023 6:23:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Akshat\CaseStudy\Adthena\.metals\.reports\metals-full\2023-09-30\r_compiler-error_18-23-03-429
+2023.09.30 18:23:04 INFO  time: code lens generation in 6.8s
+2023.09.30 18:23:04 INFO  time: code lens generation in 8.11s
+2023.09.30 18:23:04 INFO  time: code lens generation in 9.89s
+Sep 30, 2023 6:23:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 753
+Sep 30, 2023 6:23:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 756
+Sep 30, 2023 6:23:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 758
+2023.09.30 18:23:07 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+Sep 30, 2023 6:26:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 804
+2023.09.30 18:26:10 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\main\scala\BasketPricing.scala
+2023.09.30 18:26:54 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\main\scala\com\Adthena\BasketPricing.scala
+Sep 30, 2023 6:26:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 826
+2023.09.30 18:27:29 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\main\scala\com\Adthena\BasketPricing.scala
+2023.09.30 18:28:17 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\com.Adthena\BasketPricingTest.scala
+2023.09.30 18:30:25 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\com\Adthena\BasketPricingTest.scala
+2023.09.30 18:30:27 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\com\Adthena\BasketPricingTest.scala
+2023.09.30 18:30:30 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\main\scala\com\Adthena\BasketPricing.scala
+2023.09.30 18:30:31 WARN  Using indexes to guess the definition of Item
+2023.09.30 18:30:32 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\main\scala\com\Adthena\BasketPricing.scala
+Sep 30, 2023 6:30:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 888
+2023.09.30 18:30:36 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\main\scala\com\Adthena\BasketPricing.scala
+2023.09.30 18:30:36 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\main\scala\com\Adthena\BasketPricing.scala
+2023.09.30 18:30:43 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\main\scala\com\Adthena\BasketPricing.scala
+Sep 30, 2023 6:30:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 904
+2023.09.30 18:30:43 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\main\scala\com\Adthena\BasketPricing.scala
+2023.09.30 18:34:15 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:34:15 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:34:15 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:34:15 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:34:16 INFO  {
+  "jsonrpc": "2.0",
+  "id": "201",
+  "error": {
+    "code": -32600,
+    "message": "No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id\u003dadthena-build)"
+  }
+}
+2023.09.30 18:34:34 INFO  skipping build import with status 'Dismissed'
+2023.09.30 18:34:34 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:34:34 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:34:34 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:34:34 INFO  {
+  "jsonrpc": "2.0",
+  "id": "206",
+  "error": {
+    "code": -32600,
+    "message": "No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id\u003dadthena-build)"
+  }
+}
+2023.09.30 18:34:34 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+Sep 30, 2023 6:34:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Akshat\CaseStudy\Adthena\.metals\.reports\metals-full\2023-09-30\r_compiler-error_18-34-35-217
+2023.09.30 18:34:34 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:34:35 INFO  skipping build import with status 'Dismissed'
+2023.09.30 18:34:35 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:34:35 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:34:35 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:34:35 INFO  {
+  "jsonrpc": "2.0",
+  "id": "210",
+  "error": {
+    "code": -32600,
+    "message": "No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id\u003dadthena-build)"
+  }
+}
+Sep 30, 2023 6:34:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Akshat\CaseStudy\Adthena\.metals\.reports\metals-full\2023-09-30\r_compiler-error_18-34-36-715
+2023.09.30 18:34:41 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:34:41 INFO  skipping build import with status 'Dismissed'
+2023.09.30 18:34:41 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:34:41 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:34:41 INFO  {
+  "jsonrpc": "2.0",
+  "id": "214",
+  "error": {
+    "code": -32600,
+    "message": "No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id\u003dadthena-build)"
+  }
+}
+2023.09.30 18:34:41 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:34:53 INFO  skipping build import with status 'Dismissed'
+2023.09.30 18:34:53 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+Sep 30, 2023 6:34:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Akshat\CaseStudy\Adthena\.metals\.reports\metals-full\2023-09-30\r_compiler-error_18-34-53-382
+2023.09.30 18:34:53 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:34:53 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:34:53 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:34:53 INFO  {
+  "jsonrpc": "2.0",
+  "id": "218",
+  "error": {
+    "code": -32600,
+    "message": "No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id\u003dadthena-build)"
+  }
+}
+2023.09.30 18:34:55 INFO  skipping build import with status 'Dismissed'
+2023.09.30 18:34:55 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:34:55 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:34:55 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:34:55 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:34:55 INFO  {
+  "jsonrpc": "2.0",
+  "id": "222",
+  "error": {
+    "code": -32600,
+    "message": "No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id\u003dadthena-build)"
+  }
+}
+2023.09.30 18:35:00 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:35:00 INFO  skipping build import with status 'Dismissed'
+2023.09.30 18:35:00 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:35:00 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:35:00 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:35:00 INFO  {
+  "jsonrpc": "2.0",
+  "id": "226",
+  "error": {
+    "code": -32600,
+    "message": "No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id\u003dadthena-build)"
+  }
+}
+2023.09.30 18:35:02 ERROR Failed to tokenize input for semantic tokens for D:\Akshat\CaseStudy\Adthena\build.sbt
+scala.meta.tokenizers.TokenizeException: <input>:13: error: unclosed string literal
+"org.scalatest" %% "scalatest" % "3.2.17" % ")
+                                            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.09.30 18:35:04 INFO  skipping build import with status 'Dismissed'
+2023.09.30 18:35:04 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:35:04 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:35:04 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:35:04 INFO  {
+  "jsonrpc": "2.0",
+  "id": "230",
+  "error": {
+    "code": -32600,
+    "message": "No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id\u003dadthena-build)"
+  }
+}
+2023.09.30 18:35:04 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:36:38 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\com\Adthena\BasketPricingTest.scala
+2023.09.30 18:36:43 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\com\Adthena\BasketPricingTest.scala
+2023.09.30 18:37:27 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\com\Adthena\BasketPricingTest.scala
+2023.09.30 18:37:27 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\com\Adthena\BasketPricingTest.scala
+2023.09.30 18:37:28 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\com\Adthena\BasketPricingTest.scala
+Sep 30, 2023 6:37:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1098
+2023.09.30 18:39:22 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\com\Adthena\BasketPricingTest.scala
+2023.09.30 18:45:59 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:45:59 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:45:59 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:45:59 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:45:59 INFO  {
+  "jsonrpc": "2.0",
+  "id": "251",
+  "error": {
+    "code": -32600,
+    "message": "No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id\u003dadthena-build)"
+  }
+}
+2023.09.30 18:46:24 INFO  skipping build import with status 'Dismissed'
+2023.09.30 18:46:24 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:46:24 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:46:24 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:46:24 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:46:24 INFO  {
+  "jsonrpc": "2.0",
+  "id": "256",
+  "error": {
+    "code": -32600,
+    "message": "No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id\u003dadthena-build)"
+  }
+}
+2023.09.30 18:48:52 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:48:52 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:48:52 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:48:52 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:48:53 INFO  {
+  "jsonrpc": "2.0",
+  "id": "262",
+  "error": {
+    "code": -32600,
+    "message": "No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id\u003dadthena-build)"
+  }
+}
+2023.09.30 18:53:25 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\main\scala\BasketPricing.scala
+2023.09.30 18:53:40 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.30 18:54:48 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:54:48 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:54:48 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:54:48 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:54:48 INFO  {
+  "jsonrpc": "2.0",
+  "id": "274",
+  "error": {
+    "code": -32600,
+    "message": "No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id\u003dadthena-build)"
+  }
+}
+Sep 30, 2023 6:54:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Akshat\CaseStudy\Adthena\.metals\.reports\metals-full\2023-09-30\r_compiler-error_18-54-57-231
+Exception in thread "pool-7-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Sep 30, 2023 6:54:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1256
+2023.09.30 18:54:57 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:54:57 INFO  skipping build import with status 'Dismissed'
+2023.09.30 18:54:57 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:54:57 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:54:57 INFO  {
+  "jsonrpc": "2.0",
+  "id": "278",
+  "error": {
+    "code": -32600,
+    "message": "No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id\u003dadthena-build)"
+  }
+}
+2023.09.30 18:54:57 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:55:01 INFO  skipping build import with status 'Dismissed'
+2023.09.30 18:55:01 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:55:01 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:55:01 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:55:01 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:55:01 INFO  {
+  "jsonrpc": "2.0",
+  "id": "282",
+  "error": {
+    "code": -32600,
+    "message": "No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id\u003dadthena-build)"
+  }
+}
+2023.09.30 18:55:03 INFO  skipping build import with status 'Dismissed'
+2023.09.30 18:55:03 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:55:03 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:55:03 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:55:03 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:55:03 INFO  {
+  "jsonrpc": "2.0",
+  "id": "286",
+  "error": {
+    "code": -32600,
+    "message": "No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id\u003dadthena-build)"
+  }
+}
+2023.09.30 18:55:15 INFO  skipping build import with status 'Dismissed'
+2023.09.30 18:55:15 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:55:15 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:55:15 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:55:15 INFO  {
+  "jsonrpc": "2.0",
+  "id": "290",
+  "error": {
+    "code": -32600,
+    "message": "No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id\u003dadthena-build)"
+  }
+}
+2023.09.30 18:55:15 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+Sep 30, 2023 6:55:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1289
+Sep 30, 2023 6:55:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1293
+Sep 30, 2023 6:55:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1287
+Sep 30, 2023 6:55:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1286
+Sep 30, 2023 6:55:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1294
+Sep 30, 2023 6:55:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1288
+2023.09.30 18:55:16 INFO  skipping build import with status 'Dismissed'
+2023.09.30 18:55:16 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+Sep 30, 2023 6:55:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1295
+2023.09.30 18:55:16 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+Sep 30, 2023 6:55:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1297
+2023.09.30 18:55:18 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:55:18 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:55:18 INFO  {
+  "jsonrpc": "2.0",
+  "id": "294",
+  "error": {
+    "code": -32600,
+    "message": "No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id\u003dadthena-build)"
+  }
+}
+Sep 30, 2023 6:55:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1305
+2023.09.30 18:55:37 INFO  skipping build import with status 'Dismissed'
+2023.09.30 18:55:37 INFO  Bloop uses D:\Java defined at C:\Users\Lenovo\.bloop\bloop.json
+2023.09.30 18:55:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Akshat\CaseStudy\Adthena\project\.metals\bsp.trace.json or C:\Users\Lenovo\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.30 18:55:43 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:55:43 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:55:43 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:55:43 ERROR No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id=adthena-build)
+2023.09.30 18:55:44 INFO  {
+  "jsonrpc": "2.0",
+  "id": "5",
+  "error": {
+    "code": -32600,
+    "message": "No project associated with Uri(file:/D:/Akshat/CaseStudy/Adthena/project/?id\u003dadthena-build)"
+  }
+}
+2023.09.30 18:56:17 INFO  Bloop uses D:\Java defined at C:\Users\Lenovo\.bloop\bloop.json
+2023.09.30 18:56:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Akshat\CaseStudy\Adthena\.metals\bsp.trace.json or C:\Users\Lenovo\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.30 18:56:18 INFO  Connected to Build server: Bloop v1.5.8
+2023.09.30 18:56:18 ERROR Empty build targets. Expected at least one build target identifier.
+2023.09.30 18:56:18 ERROR Empty build targets. Expected at least one build target identifier.
+2023.09.30 18:56:18 ERROR Empty build targets. Expected at least one build target identifier.
+2023.09.30 18:56:18 ERROR Empty build targets. Expected at least one build target identifier.
+2023.09.30 18:56:19 INFO  time: Imported build in 0.9s
+2023.09.30 18:56:25 INFO  time: indexed workspace in 6s
+2023.09.30 18:56:25 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\build.sbt
+2023.09.30 18:59:59 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\main\scala\BasketPricing.scala
+2023.09.30 19:00:03 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.30 19:00:04 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.30 19:01:55 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\src\scala\BasketPricingTest.scala
+2023.09.30 19:02:04 INFO  Deduplicating compilation of adthena from bsp client 'Metals 1.0.1' (since 5m 46.266s)
+2023.09.30 19:02:04 INFO  compiling adthena (1 scala source)
+2023.09.30 19:02:04 INFO  compiling adthena (1 scala source)
+2023.09.30 19:02:32 INFO  time: compiled adthena in 27s
+2023.09.30 19:02:32 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.30 19:02:44 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\src\scala\BasketPricingTest.scala
+2023.09.30 19:03:12 INFO  compiling adthena (1 scala source)
+2023.09.30 19:03:12 INFO  time: compiled adthena in 0.24s
+2023.09.30 19:03:12 INFO  compiling adthena (1 scala source)
+2023.09.30 19:03:12 INFO  time: compiled adthena in 0.22s
+2023.09.30 19:06:02 WARN  Using indexes to guess the definition of Item
+2023.09.30 19:06:03 INFO  compiling adthena (1 scala source)
+2023.09.30 19:06:10 INFO  time: compiled adthena in 6.64s
+2023.09.30 19:06:31 INFO  compiling adthena-test (1 scala source)
+2023.09.30 19:06:31 INFO  time: compiled adthena-test in 0.17s
+2023.09.30 19:06:34 WARN  Using indexes to guess the definition of calculatePrice
+2023.09.30 19:07:19 WARN  Using indexes to guess the definition of calculatePrice
+2023.09.30 19:07:21 INFO  compiling adthena-test (1 scala source)
+2023.09.30 19:07:21 INFO  time: compiled adthena-test in 0.12s
+2023.09.30 19:07:33 INFO  compiling adthena-test (1 scala source)
+2023.09.30 19:07:33 INFO  time: compiled adthena-test in 0.11s
+2023.09.30 19:07:55 ERROR Failed to tokenize input for semantic tokens for D:\Akshat\CaseStudy\Adthena\src\test\scala\BasketPricingTest.scala
+scala.meta.tokenizers.TokenizeException: <input>:7: error: Non-zero integral values may not have a leading zero.
+[error] Total time: 0 s, completed 30-Sep-2023, 7:07:41 pm
+                                                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.restOfUncertainToken$1(LegacyScanner.scala:892)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:908)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:363)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:365)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.09.30 19:08:46 INFO  compiling adthena-test (1 scala source)
+2023.09.30 19:08:46 INFO  time: compiled adthena-test in 0.12s
+2023.09.30 19:08:49 INFO  compiling adthena-test (1 scala source)
+2023.09.30 19:08:49 INFO  time: compiled adthena-test in 0.1s
+2023.09.30 19:08:50 INFO  compiling adthena-test (1 scala source)
+2023.09.30 19:08:50 INFO  time: compiled adthena-test in 94ms
+Sep 30, 2023 7:08:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1526
+2023.09.30 19:09:06 INFO  compiling adthena-test (1 scala source)
+2023.09.30 19:09:06 INFO  time: compiled adthena-test in 0.12s
+2023.09.30 19:09:14 INFO  compiling adthena (1 scala source)
+2023.09.30 19:09:17 INFO  time: compiled adthena in 2.89s
+2023.09.30 19:09:27 INFO  compiling adthena-test (1 scala source)
+2023.09.30 19:09:27 INFO  time: compiled adthena-test in 0.14s
+2023.09.30 19:09:31 WARN  Using indexes to guess the definition of items
+2023.09.30 19:10:21 INFO  compiling adthena-test (1 scala source)
+2023.09.30 19:10:21 INFO  time: compiled adthena-test in 0.12s
+2023.09.30 19:10:26 INFO  compiling adthena-test (1 scala source)
+2023.09.30 19:10:26 INFO  time: compiled adthena-test in 96ms
+2023.09.30 19:17:37 INFO  compiling adthena-test (1 scala source)
+2023.09.30 19:17:37 INFO  time: compiled adthena-test in 0.11s
+2023.09.30 19:17:39 INFO  compiling adthena-test (1 scala source)
+2023.09.30 19:17:39 INFO  time: compiled adthena-test in 0.25s
+2023.09.30 19:18:24 INFO  compiling adthena-test (1 scala source)
+2023.09.30 19:18:24 INFO  time: compiled adthena-test in 0.11s
+2023.09.30 19:18:26 INFO  compiling adthena-test (1 scala source)
+2023.09.30 19:18:26 INFO  time: compiled adthena-test in 0.14s
+2023.09.30 19:18:27 INFO  compiling adthena-test (1 scala source)
+2023.09.30 19:18:27 INFO  time: compiled adthena-test in 50ms
+2023.09.30 19:18:32 INFO  compiling adthena-test (1 scala source)
+2023.09.30 19:18:32 INFO  time: compiled adthena-test in 88ms
+2023.09.30 19:18:59 INFO  compiling adthena-test (1 scala source)
+2023.09.30 19:18:59 INFO  time: compiled adthena-test in 0.34s
+2023.09.30 19:19:04 INFO  compiling adthena-test (1 scala source)
+2023.09.30 19:19:04 INFO  time: compiled adthena-test in 97ms
+2023.09.30 19:21:13 INFO  compiling adthena-test (1 scala source)
+2023.09.30 19:21:13 INFO  time: compiled adthena-test in 0.14s
+2023.09.30 19:21:15 INFO  compiling adthena-test (1 scala source)
+2023.09.30 19:21:15 INFO  time: compiled adthena-test in 0.77s
+2023.09.30 19:21:17 INFO  compiling adthena-test (1 scala source)
+2023.09.30 19:21:17 INFO  time: compiled adthena-test in 0.32s
+2023.09.30 19:21:40 INFO  compiling adthena-test (1 scala source)
+2023.09.30 19:21:42 INFO  time: compiled adthena-test in 2.12s
+Sep 30, 2023 7:23:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1827
+Sep 30, 2023 7:23:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1832
+Sep 30, 2023 7:24:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1884
+2023.09.30 19:24:59 WARN  Using indexes to guess the definition of soupBreadDiscount
+2023.09.30 19:26:48 INFO  compiling adthena (1 scala source)
+2023.09.30 19:26:52 INFO  time: compiled adthena in 4.41s
+2023.09.30 19:27:13 INFO  compiling adthena (1 scala source)
+2023.09.30 19:27:16 INFO  time: compiled adthena in 2.85s
+Sep 30, 2023 7:27:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2002
+2023.09.30 19:27:44 INFO  compiling adthena (1 scala source)
+2023.09.30 19:27:46 INFO  time: compiled adthena in 2.6s
+2023.09.30 19:28:33 INFO  compiling adthena (1 scala source)
+2023.09.30 19:28:35 INFO  time: compiled adthena in 2.51s
+2023.09.30 19:30:17 INFO  compiling adthena (1 scala source)
+2023.09.30 19:30:17 INFO  time: compiled adthena in 0.54s
+2023.09.30 19:30:18 INFO  compiling adthena (1 scala source)
+2023.09.30 19:30:20 INFO  time: compiled adthena in 2.47s
+Sep 30, 2023 7:30:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2061
+2023.09.30 19:30:45 INFO  compiling adthena (1 scala source)
+2023.09.30 19:30:45 INFO  time: compiled adthena in 0.45s
+2023.09.30 19:31:21 INFO  compiling adthena (1 scala source)
+2023.09.30 19:31:21 INFO  time: compiled adthena in 81ms
+2023.09.30 19:31:28 INFO  compiling adthena (1 scala source)
+2023.09.30 19:31:28 INFO  time: compiled adthena in 0.11s
+2023.09.30 19:31:29 INFO  compiling adthena (1 scala source)
+2023.09.30 19:31:29 INFO  time: compiled adthena in 0.1s
+2023.09.30 19:31:32 INFO  compiling adthena (1 scala source)
+2023.09.30 19:31:32 INFO  time: compiled adthena in 0.13s
+2023.09.30 19:31:34 INFO  compiling adthena (1 scala source)
+2023.09.30 19:31:34 INFO  time: compiled adthena in 81ms
+2023.09.30 19:31:36 INFO  compiling adthena (1 scala source)
+2023.09.30 19:31:36 INFO  time: compiled adthena in 0.13s
+2023.09.30 19:31:38 INFO  compiling adthena (1 scala source)
+2023.09.30 19:31:38 INFO  time: compiled adthena in 0.11s
+2023.09.30 19:31:41 INFO  compiling adthena (1 scala source)
+2023.09.30 19:31:41 INFO  time: compiled adthena in 0.39s
+2023.09.30 19:31:56 INFO  compiling adthena (1 scala source)
+2023.09.30 19:31:56 INFO  time: compiled adthena in 0.14s
+2023.09.30 19:32:00 INFO  compiling adthena (1 scala source)
+2023.09.30 19:32:00 INFO  time: compiled adthena in 0.54s
+Sep 30, 2023 7:32:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2263
+2023.09.30 19:32:08 INFO  compiling adthena (1 scala source)
+2023.09.30 19:32:08 INFO  time: compiled adthena in 0.14s
+2023.09.30 19:33:13 INFO  compiling adthena (1 scala source)
+2023.09.30 19:33:13 INFO  time: compiled adthena in 0.64s
+2023.09.30 19:33:27 INFO  compiling adthena (1 scala source)
+2023.09.30 19:33:27 INFO  time: compiled adthena in 0.28s
+2023.09.30 19:33:29 INFO  compiling adthena (1 scala source)
+2023.09.30 19:33:29 INFO  time: compiled adthena in 0.3s
+2023.09.30 19:34:37 INFO  compiling adthena (1 scala source)
+2023.09.30 19:34:38 INFO  time: compiled adthena in 1.84s
+2023.09.30 19:36:40 INFO  compiling adthena (1 scala source)
+2023.09.30 19:36:42 INFO  time: compiled adthena in 1.88s
+2023.09.30 19:36:57 INFO  compiling adthena (1 scala source)
+2023.09.30 19:36:59 INFO  time: compiled adthena in 1.65s
+2023.09.30 19:37:01 INFO  compiling adthena (1 scala source)
+2023.09.30 19:37:01 INFO  time: compiled adthena in 0.4s
+2023.09.30 19:37:02 WARN  Could not load snapshot text for D:\Akshat\CaseStudy\Adthena\src\main\scala\BasketPricing.scala
+Sep 30, 2023 7:40:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2516
+Sep 30, 2023 7:40:55 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2023.09.30 19:40:56 INFO  compiling adthena (1 scala source)
+2023.09.30 19:40:59 INFO  time: compiled adthena in 2.92s
+2023.09.30 19:41:05 INFO  compiling adthena (1 scala source)
+2023.09.30 19:41:07 INFO  time: compiled adthena in 1.91s
+2023.09.30 19:41:12 INFO  compiling adthena (1 scala source)
+2023.09.30 19:41:15 INFO  time: compiled adthena in 2.37s
+2023.09.30 19:41:17 INFO  compiling adthena (1 scala source)
+2023.09.30 19:41:20 INFO  time: compiled adthena in 2.48s
+2023.09.30 19:41:28 INFO  compiling adthena (1 scala source)
+2023.09.30 19:41:31 INFO  time: compiled adthena in 2.46s
+2023.09.30 19:42:08 INFO  compiling adthena (1 scala source)
+2023.09.30 19:42:08 INFO  time: compiled adthena in 75ms
+2023.09.30 19:42:11 INFO  compiling adthena (1 scala source)
+2023.09.30 19:42:12 INFO  time: compiled adthena in 1.83s
+2023.09.30 19:42:37 INFO  compiling adthena (1 scala source)
+2023.09.30 19:42:38 INFO  time: compiled adthena in 1.66s
+2023.09.30 19:43:05 INFO  compiling adthena-test (1 scala source)
+2023.09.30 19:43:06 INFO  time: compiled adthena-test in 1.52s
+Sep 30, 2023 7:43:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2652
+2023.09.30 19:45:34 INFO  compiling adthena (1 scala source)
+2023.09.30 19:45:34 INFO  time: compiled adthena in 0.12s
+2023.09.30 19:45:38 INFO  compiling adthena (1 scala source)
+2023.09.30 19:45:38 INFO  time: compiled adthena in 84ms
+Sep 30, 2023 7:45:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2725
+2023.09.30 19:45:42 INFO  compiling adthena (1 scala source)
+2023.09.30 19:45:42 INFO  time: compiled adthena in 0.12s
+2023.09.30 19:45:45 INFO  compiling adthena (1 scala source)
+2023.09.30 19:45:45 INFO  time: compiled adthena in 95ms
+2023.09.30 19:45:48 INFO  compiling adthena (1 scala source)
+2023.09.30 19:45:48 INFO  time: compiled adthena in 85ms
+2023.09.30 19:45:52 INFO  compiling adthena (1 scala source)
+2023.09.30 19:45:52 INFO  time: compiled adthena in 92ms
+2023.09.30 19:45:56 INFO  compiling adthena (1 scala source)
+2023.09.30 19:45:56 INFO  time: compiled adthena in 89ms
+2023.09.30 19:45:56 INFO  compiling adthena (1 scala source)
+2023.09.30 19:45:57 INFO  time: compiled adthena in 42ms
+2023.09.30 19:46:09 INFO  compiling adthena (1 scala source)
+2023.09.30 19:46:09 INFO  time: compiled adthena in 0.15s
+Sep 30, 2023 7:46:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2817
+2023.09.30 19:46:12 INFO  compiling adthena (1 scala source)
+2023.09.30 19:46:12 INFO  time: compiled adthena in 81ms
+Sep 30, 2023 7:46:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2833
+2023.09.30 19:46:26 INFO  compiling adthena (1 scala source)
+2023.09.30 19:46:26 INFO  time: compiled adthena in 0.2s
+2023.09.30 19:46:32 INFO  compiling adthena (1 scala source)
+2023.09.30 19:46:32 INFO  time: compiled adthena in 0.1s
+Sep 30, 2023 7:46:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2890
+2023.09.30 19:46:55 INFO  compiling adthena (1 scala source)
+2023.09.30 19:46:55 INFO  time: compiled adthena in 83ms
+2023.09.30 19:47:24 INFO  compiling adthena (1 scala source)
+2023.09.30 19:47:24 INFO  time: compiled adthena in 0.13s
+2023.09.30 19:47:29 INFO  compiling adthena (1 scala source)
+2023.09.30 19:47:29 INFO  time: compiled adthena in 0.19s
+2023.09.30 19:47:32 INFO  compiling adthena (1 scala source)
+2023.09.30 19:47:32 INFO  time: compiled adthena in 0.18s
+2023.09.30 19:47:33 INFO  compiling adthena (1 scala source)
+2023.09.30 19:47:35 INFO  time: compiled adthena in 1.87s
+Exception in thread "pool-12-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.09.30 19:48:26 INFO  compiling adthena-test (1 scala source)
+2023.09.30 19:48:28 INFO  time: compiled adthena-test in 1.48s
+2023.09.30 19:48:28 INFO  compiling adthena-test (1 scala source)
+2023.09.30 19:48:28 WARN  Could not load snapshot text for D:\Akshat\CaseStudy\Adthena\src\test\scala\BasketPricingTest.scala
+2023.09.30 19:48:28 WARN  Could not load snapshot text for D:\Akshat\CaseStudy\Adthena\src\test\scala\BasketPricingTest.scala
+2023.09.30 19:48:28 WARN  Could not load snapshot text for D:\Akshat\CaseStudy\Adthena\src\test\scala\BasketPricingTest.scala
+2023.09.30 19:48:28 WARN  Could not load snapshot text for D:\Akshat\CaseStudy\Adthena\src\test\scala\BasketPricingTest.scala
+2023.09.30 19:48:28 WARN  Could not load snapshot text for D:\Akshat\CaseStudy\Adthena\src\test\scala\BasketPricingTest.scala
+2023.09.30 19:48:28 WARN  Could not load snapshot text for D:\Akshat\CaseStudy\Adthena\src\test\scala\BasketPricingTest.scala
+2023.09.30 19:48:28 WARN  Could not load snapshot text for D:\Akshat\CaseStudy\Adthena\src\test\scala\BasketPricingTest.scala
+Sep 30, 2023 7:48:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3050
+2023.09.30 19:48:28 WARN  Could not load snapshot text for D:\Akshat\CaseStudy\Adthena\src\test\scala\BasketPricingTest.scala
+2023.09.30 19:48:28 WARN  Could not load snapshot text for D:\Akshat\CaseStudy\Adthena\src\test\scala\BasketPricingTest.scala
+2023.09.30 19:48:29 INFO  time: compiled adthena-test in 0.59s
+2023.09.30 19:48:29 INFO  compiling adthena-test (1 scala source)
+2023.09.30 19:48:30 INFO  time: compiled adthena-test in 0.66s
+2023.09.30 19:48:32 INFO  compiling adthena-test (1 scala source)
+2023.09.30 19:48:33 INFO  time: compiled adthena-test in 1.66s
