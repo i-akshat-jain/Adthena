@@ -4,11 +4,11 @@ This is a command-line application written in Scala that calculates the subtotal
 
 ## Prerequisites
 
-Before running the application, ensure that you have the following prerequisites installed on your system:
+Before running the application, ensure that you have the following mininum prerequisites installed on your system:
 
-- Scala (version 2.13.12)
-- Git (version 2.35.3)
-- sbt (version 1.9.6)
+- Java (version 8 or higher)
+- Scala (version 2.11 or higher)
+- sbt (version 1.8 or higher)
 
 ## Installation
 
@@ -33,15 +33,13 @@ To install and run the application locally, follow these steps:
    ```bash
    compile
 
-6. Now your application is compiled. 
-   To run the application, use the following command in the shell:
+5. Running the Application. 
+   To run the application, use command as  "run --item1 --item2 --item3 ..." for running the application.
+   Replace --item1, --item2, --item3, etc., with the names of the items in your basket i.e. "Apples, Milk, Bread, Soup" in sbt shell.
    ```bash
-    run --item1 --item2 --item3 ...
-7. Replace --item1, --item2, --item3, etc., with the names of the items in your basket.
-   ```bash
-   run Apples Milk Bread Soup
+   run Apples Soup Milk Bread Soup 
 
-8. Testing the Application
+6. Testing the Application
   To run the test suite, use the following command. It will automatically run all the pre-structured test cases. 
    ```bash
     test
