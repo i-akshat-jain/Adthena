@@ -17,27 +17,34 @@ To install and run the application locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/basket-pricing.git
+   git clone https://github.com/i-akshat-jain/Adthena.git
 
    
 2. Navigate to the project directory:
    ```bash
-   cd basket-pricing
+   cd Adthena
    
-3. Build the project using sbt:
+3. Run the Scala Build Tool shell by running:
    ```bash
-   sbt compile
+   sbt
 
 4. Running the Application
-  To run the application, use the following command:
+   Compile the application by using the following command in the shell:
    ```bash
-    sbt run --item1 --item2 --item3 ...
+   compile
 
-Replace --item1, --item2, --item3, etc., with the names of the items in your basket.
-
-5. Testing the Application
-  To run the test suite, use the following command
+6. Now your application is compiled. 
+   To run the application, use the following command in the shell:
    ```bash
-    sbt test
+    run --item1 --item2 --item3 ...
+7. Replace --item1, --item2, --item3, etc., with the names of the items in your basket.
+   ```bash
+   run Apples Milk Bread Soup
 
-This will execute the test cases and display the results.
+8. Testing the Application
+  To run the test suite, use the following command. It will automatically run all the pre-structured test cases. 
+   ```bash
+    test
+This command will run all the predefined test cases and display the results. 
+
+By following these instructions, you can effectively use, test, and extend the Adthena Basket Pricing Application to suit your requirements.
