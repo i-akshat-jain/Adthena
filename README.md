@@ -4,11 +4,12 @@ This is a command-line application written in Scala that calculates the subtotal
 
 ## Prerequisites
 
-Before running the application, ensure that you have the following mininum prerequisites installed on your system:
+Before running the application, ensure that you have the following minimum prerequisites installed on your system:
 
 - Java (version 8 or higher)
 - Scala (version 2.11 or higher)
 - sbt (version 1.8 or higher)
+- Git
 
 ## Installation
 
@@ -33,16 +34,25 @@ To install and run the application locally, follow these steps:
    ```bash
    compile
 
-5. Running the Application. 
-   To run the application, use command as  "run --item1 --item2 --item3 ..." for running the application.
+### Running the Application. 
+   
+1. To run the application, use the command "run --item1 --item2 --item3 ..." for running the application.
    Replace --item1, --item2, --item3, etc., with the names of the items in your basket i.e. "Apples, Milk, Bread, Soup" in sbt shell.
+
    ```bash
    run Apples Soup Milk Bread Soup 
 
-6. Testing the Application
-  To run the test suite, use the following command. It will automatically run all the pre-structured test cases. 
+### Testing the Application
+  
+1. To run the test suite, use the following command. It will automatically run all the pre-structured test cases. 
    ```bash
-    test
+   test
+
+2. If you want to run a specific Test Case file, then run the following command in the sbt shell:
+   ```bash
+   Test / testOnly *BasketPricingTest
+
+
 This command will run all the predefined test cases and display the results. 
 
 By following these instructions, you can effectively use, test, and extend the Adthena Basket Pricing Application to suit your requirements.
