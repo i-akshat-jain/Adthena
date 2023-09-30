@@ -1,0 +1,668 @@
+2023.09.27 20:40:45 INFO  Started: Metals version 1.0.1 in folders 'D:\Akshat\CaseStudy\Adthena' for client Visual Studio Code 1.82.2.
+Sep 27, 2023 8:40:45 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 27, 2023 8:40:45 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 27, 2023 8:40:45 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 27, 2023 8:40:46 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:D:\Akshat\CaseStudy\Adthena\.metals\metals (H2 2.1)
+Sep 27, 2023 8:40:46 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Sep 27, 2023 8:40:46 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.030s)
+Sep 27, 2023 8:40:46 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Sep 27, 2023 8:40:46 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Sep 27, 2023 8:40:46 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Sep 27, 2023 8:40:46 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Sep 27, 2023 8:40:46 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Sep 27, 2023 8:40:46 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Sep 27, 2023 8:40:46 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.032s)
+2023.09.27 20:40:46 INFO  time: initialize in 1.53s
+2023.09.27 20:40:48 ERROR Unexpected error initializing server: 
+java.nio.file.InvalidPathException: Illegal char <:> at index 0: :C:\Program Files\ImageMagick-7.1.1-Q16-HDRI
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.nio.file.Path.of(Path.java:147)
+	at java.nio.file.Paths.get(Paths.java:69)
+	at scala.meta.internal.metals.scalacli.ScalaCli$.$anonfun$localScalaCli$4(ScalaCli.scala:374)
+	at scala.collection.Iterator$$anon$9.next(Iterator.scala:584)
+	at scala.collection.Iterator$$anon$6.hasNext(Iterator.scala:478)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:600)
+	at scala.collection.immutable.Stream$.fromIterator(Stream.scala:468)
+	at scala.collection.immutable.Stream$.from(Stream.scala:456)
+	at scala.collection.immutable.Stream$.from(Stream.scala:356)
+	at scala.collection.IterableFactory$ToFactory.fromSpecific(Factory.scala:274)
+	at scala.collection.IterableOnceOps.to(IterableOnce.scala:1310)
+	at scala.collection.IterableOnceOps.to$(IterableOnce.scala:1310)
+	at scala.collection.AbstractIterator.to(Iterator.scala:1300)
+	at scala.collection.IterableOnceOps.toStream(IterableOnce.scala:1331)
+	at scala.collection.IterableOnceOps.toStream$(IterableOnce.scala:1331)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1300)
+	at scala.meta.internal.metals.scalacli.ScalaCli$.findInPath$1(ScalaCli.scala:377)
+	at scala.meta.internal.metals.scalacli.ScalaCli$.$anonfun$localScalaCli$11(ScalaCli.scala:415)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.scalacli.ScalaCli$.localScalaCli(ScalaCli.scala:418)
+	at scala.meta.internal.metals.scalacli.ScalaCli.localScalaCli$lzycompute(ScalaCli.scala:156)
+	at scala.meta.internal.metals.scalacli.ScalaCli.localScalaCli(ScalaCli.scala:155)
+	at scala.meta.internal.metals.scalacli.ScalaCli.setupIDE(ScalaCli.scala:183)
+	at scala.meta.internal.metals.MetalsLspService.maybeSetupScalaCli(MetalsLspService.scala:2015)
+	at scala.meta.internal.metals.MetalsLspService.initialized(MetalsLspService.scala:883)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$initialized$3(WorkspaceLspService.scala:1109)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$initialized$2(WorkspaceLspService.scala:1109)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.09.27 20:41:20 INFO  no build target found for D:\Akshat\CaseStudy\Adthena\BasketPricing.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.09.27 20:41:24 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\specialOffers.scala
+2023.09.27 20:41:25 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/specialOffers.scala
+2023.09.27 20:41:25 INFO  time: code lens generation in 35s
+2023.09.27 20:41:26 INFO  time: code lens generation in 2.44s
+2023.09.27 20:41:26 INFO  time: code lens generation in 3.33s
+2023.09.27 20:41:26 INFO  time: code lens generation in 4.91s
+2023.09.27 20:41:30 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 20:41:33 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 20:41:38 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+Sep 27, 2023 8:41:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 69
+2023.09.27 20:41:47 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:02:44 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:04:25 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:04:26 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+Sep 27, 2023 9:04:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 136
+2023.09.27 21:04:28 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:04:46 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:04:49 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:04:54 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:04:56 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:05:46 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:05:47 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:05:49 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+Sep 27, 2023 9:06:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 217
+2023.09.27 21:06:49 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:06:52 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:07:29 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:07:30 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:07:33 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:07:40 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:07:42 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:07:52 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:07:53 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:07:55 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:07:57 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:09:17 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:09:49 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:09:52 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:09:54 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:09:55 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:09:59 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:10:03 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:10:08 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:10:15 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:11:52 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+Sep 27, 2023 9:12:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 495
+Sep 27, 2023 9:12:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 532
+2023.09.27 21:13:54 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:13:57 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+Sep 27, 2023 9:13:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 671
+2023.09.27 21:15:04 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:15:07 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:15:09 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:15:27 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:15:30 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:15:35 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:15:38 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:15:41 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:15:47 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:18:31 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:18:33 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:18:36 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:18:39 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:18:59 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+Sep 27, 2023 9:19:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 846
+2023.09.27 21:19:03 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:19:04 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:19:07 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:19:09 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:19:10 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:19:11 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:19:15 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:19:16 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:19:24 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:19:27 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+Sep 27, 2023 9:21:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1026
+Sep 27, 2023 9:21:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1039
+2023.09.27 21:22:02 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:22:03 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:22:04 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:22:06 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:22:11 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:22:16 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:22:19 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:22:20 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:22:22 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:22:25 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:23:08 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:23:10 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:23:12 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:23:18 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+Sep 27, 2023 9:23:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1197
+Sep 27, 2023 9:23:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1226
+2023.09.27 21:23:25 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:23:26 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:23:28 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:23:33 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:23:35 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:23:36 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:23:39 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:23:43 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:23:44 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:23:46 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:23:46 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:23:46 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:23:55 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:24:14 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:24:15 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:24:16 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/BasketPricing.scala
+2023.09.27 21:27:02 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:27:04 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:34:59 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:35:00 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:38:47 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:38:57 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:39:12 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:39:13 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:39:20 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:39:20 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:39:25 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:39:35 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:39:38 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+Sep 27, 2023 9:39:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1655
+2023.09.27 21:39:50 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:39:53 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:39:59 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:40:01 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:42:55 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:42:58 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.27 21:43:02 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+Sep 28, 2023 12:14:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1821
+Sep 28, 2023 12:14:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1906
+2023.09.28 00:15:40 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.28 00:15:42 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+Sep 28, 2023 12:16:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2043
+Sep 28, 2023 12:16:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2137
+Sep 28, 2023 12:17:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2151
+Sep 28, 2023 2:10:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2182
+2023.09.28 14:10:38 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+Sep 28, 2023 2:10:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2187
+2023.09.28 14:10:40 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/BasketPricing.scala
+Sep 28, 2023 2:10:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2192
+2023.09.28 14:10:41 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/BasketPricing.scala
+2023.09.28 14:10:41 INFO  time: code lens generation in 1.95s
+2023.09.28 14:10:41 INFO  time: code lens generation in 4.96s
+2023.09.28 14:13:13 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/testBasketPricing.scala
+2023.09.28 14:13:18 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\testBasketPricing.scala
+2023.09.28 14:14:21 INFO  time: code lens generation in 3.72s
+2023.09.28 14:27:08 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\build.scala
+Sep 28, 2023 2:27:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2241
+2023.09.28 14:27:45 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 14:27:46 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\build.sbt
+2023.09.28 14:27:46 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 14:27:48 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 14:27:51 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\build.sbt
+2023.09.28 14:27:51 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 14:27:53 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\build.sbt
+2023.09.28 14:27:58 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 14:42:44 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 14:42:45 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 14:42:48 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 14:42:49 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\build.sbt
+2023.09.28 14:42:49 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 14:42:56 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 14:42:58 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\build.sbt
+2023.09.28 14:42:58 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 14:42:58 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 14:42:58 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\build.sbt
+2023.09.28 14:42:58 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 14:43:01 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 14:43:02 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\build.sbt
+2023.09.28 14:43:02 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 14:44:45 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 14:44:48 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\build.sbt
+2023.09.28 14:46:17 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/BasketPricing.scala
+2023.09.28 14:49:01 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 14:49:02 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 14:49:03 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\build.sbt
+2023.09.28 14:49:02 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 14:50:29 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/BasketPricing.scala
+2023.09.28 14:51:13 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 14:51:14 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 14:51:14 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\build.sbt
+2023.09.28 14:51:14 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+Sep 28, 2023 2:51:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2478
+Sep 28, 2023 2:51:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2479
+2023.09.28 14:51:33 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 14:51:35 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 14:51:46 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 14:51:49 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 14:52:07 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/BasketPricing.scala
+2023.09.28 14:52:19 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/BasketPricing.scala
+2023.09.28 14:53:05 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 14:53:07 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 14:55:24 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 14:55:25 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 14:55:31 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 14:55:31 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\build.sbt
+2023.09.28 14:55:31 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 14:55:33 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 14:55:33 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 14:55:35 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\build.sbt
+2023.09.28 14:55:35 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 14:59:32 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:03:56 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 15:03:57 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 15:03:58 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\build.sbt
+2023.09.28 15:03:58 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 15:04:42 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:04:47 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:05:50 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:06:22 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:06:42 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:09:32 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/BasketPricing.scala
+2023.09.28 15:17:03 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:17:08 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 15:17:09 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 15:17:09 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 15:17:10 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 15:17:11 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\build.sbt
+2023.09.28 15:17:11 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 15:17:12 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 15:17:13 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\build.sbt
+2023.09.28 15:17:13 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 15:17:14 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 15:17:15 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\build.sbt
+2023.09.28 15:17:15 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 15:17:36 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 15:17:36 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\build.sbt
+2023.09.28 15:17:36 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 15:17:38 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 15:17:39 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\build.sbt
+2023.09.28 15:17:39 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 15:17:43 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:18:11 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:18:40 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:18:42 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:18:45 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:18:49 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:19:11 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:19:15 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/BasketPricing.scala
+2023.09.28 15:19:23 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/BasketPricing.scala
+2023.09.28 15:19:32 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:19:34 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:19:35 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:19:37 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:19:39 INFO  time: code lens generation in 2.57s
+2023.09.28 15:19:39 INFO  time: code lens generation in 2.15s
+2023.09.28 15:19:39 INFO  time: code lens generation in 4.13s
+2023.09.28 15:19:41 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:19:42 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/BasketPricing.scala
+2023.09.28 15:19:48 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:19:51 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:19:56 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:20:19 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 15:20:21 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 15:20:21 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\build.sbt
+2023.09.28 15:20:21 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 15:22:05 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 15:22:15 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:22:20 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:23:08 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:23:29 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:23:30 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:23:32 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:23:35 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:23:39 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:23:40 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:23:41 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:23:40 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:23:58 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:25:40 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:31:25 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.28 15:31:42 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+Sep 28, 2023 3:32:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3322
+2023.09.28 15:32:03 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.28 15:32:19 WARN  Using indexes to guess the definition of BasketPricing
+2023.09.28 15:32:20 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:32:20 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricing.scala
+2023.09.28 15:32:23 WARN  Using indexes to guess the definition of BasketPricing
+2023.09.28 15:32:23 WARN  Using indexes to guess the definition of BasketPricing
+2023.09.28 15:32:24 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:32:25 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:32:27 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:32:29 WARN  Using indexes to guess the definition of BasketPricing
+2023.09.28 15:32:30 WARN  Using indexes to guess the definition of BasketPricing
+2023.09.28 15:32:35 WARN  Using indexes to guess the definition of BasketPricing
+2023.09.28 15:32:35 WARN  Using indexes to guess the definition of BasketPricing
+2023.09.28 15:32:37 WARN  Using indexes to guess the definition of calculatePrice
+2023.09.28 15:32:37 WARN  Using indexes to guess the definition of calculatePrice
+2023.09.28 15:33:39 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:33:39 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:33:40 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:33:40 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:33:44 WARN  Using indexes to guess the definition of Item
+2023.09.28 15:33:44 WARN  Using indexes to guess the definition of Item
+2023.09.28 15:35:38 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:35:38 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\BasketPricingTest.scala
+2023.09.28 15:35:39 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 15:35:41 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 15:35:42 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\build.sbt
+2023.09.28 15:35:42 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 15:35:43 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 15:35:44 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\build.sbt
+2023.09.28 15:35:44 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 15:35:44 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 15:35:46 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\build.sbt
+2023.09.28 15:35:47 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\build.sbt
+2023.09.28 15:35:49 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\build.sbt
+2023.09.28 15:36:11 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 15:36:12 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 15:36:13 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\build.sbt
+2023.09.28 15:36:13 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.28 15:38:40 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.28 15:38:41 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.28 15:46:29 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.28 15:46:32 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.28 15:46:35 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.28 15:46:37 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.28 15:46:40 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.28 15:46:41 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.28 15:46:44 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.28 15:46:45 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.28 15:47:20 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.28 15:47:44 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.28 21:17:35 INFO  Started: Metals version 1.0.1 in folders 'D:\Akshat\CaseStudy\Adthena' for client Visual Studio Code 1.82.2.
+Sep 28, 2023 9:17:36 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 28, 2023 9:17:36 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 28, 2023 9:17:36 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 28, 2023 9:17:39 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:D:\Akshat\CaseStudy\Adthena\.metals\metals (H2 2.1)
+Sep 28, 2023 9:17:39 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.107s)
+Sep 28, 2023 9:17:39 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 28, 2023 9:17:39 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.28 21:17:40 INFO  time: initialize in 4.83s
+2023.09.28 21:17:50 WARN  Build server is not auto-connectable.
+2023.09.28 21:17:50 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\main\scala\BasketPricing.scala
+2023.09.28 21:17:50 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.28 21:18:08 INFO  no build target found for D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.09.28 21:18:17 INFO  time: code lens generation in 27s
+2023.09.28 21:18:21 INFO  time: code lens generation in 10s
+2023.09.28 21:18:21 INFO  time: code lens generation in 10s
+Sep 28, 2023 10:49:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 57
+2023.09.28 22:50:16 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\main\scala\BasketPricing.scala
+2023.09.28 22:50:52 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\main\scala\BasketPricing.scala
+2023.09.29 11:57:35 INFO  time: code lens generation in 2.87s
+2023.09.29 12:10:46 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\main\scala\BasketPricing.scala
+2023.09.29 12:10:46 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\main\scala\BasketPricing.scala
+Sep 29, 2023 12:10:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 120
+Sep 29, 2023 12:10:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 124
+Sep 29, 2023 12:10:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 125
+Sep 29, 2023 12:10:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 121
+Exception in thread "pool-3-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Sep 29, 2023 12:10:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 135
+Sep 29, 2023 12:10:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 137
+Sep 29, 2023 12:15:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 169
+2023.09.29 12:15:23 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+Exception in thread "pool-3-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Sep 29, 2023 12:22:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 245
+Sep 29, 2023 12:22:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 249
+2023.09.29 12:22:26 INFO  time: code lens generation in 1.74s
+2023.09.29 12:22:31 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/test/scala/BasketPricingTest.scala
+2023.09.29 12:58:04 WARN  Using indexes to guess the definition of Item
+2023.09.29 12:58:09 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+Sep 29, 2023 12:58:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 269
+Sep 29, 2023 1:01:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 288
+2023.09.29 13:03:24 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\main\scala\BasketPricing.scala
+2023.09.29 13:05:18 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\main\scala\BasketPricing.scala
+2023.09.29 13:05:19 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\main\scala\BasketPricing.scala
+2023.09.29 13:05:23 INFO  time: code lens generation in 3.68s
+2023.09.29 13:05:23 INFO  time: code lens generation in 1.58s
+2023.09.29 13:05:24 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\main\scala\BasketPricing.scala
+2023.09.29 13:08:28 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+Sep 29, 2023 1:08:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 396
+2023.09.29 13:08:54 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.29 13:08:55 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+Exception in thread "pool-3-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.09.29 13:08:56 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.29 13:08:57 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+Sep 29, 2023 1:08:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 433
+2023.09.29 13:08:58 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.29 13:09:00 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.29 13:09:35 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\build.sbt
+2023.09.29 13:09:35 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.29 13:09:36 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+Sep 29, 2023 1:09:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 467
+Sep 29, 2023 1:09:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 468
+2023.09.29 13:09:42 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.29 13:09:45 INFO  time: code lens generation in 2.36s
+2023.09.29 13:10:29 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.29 13:13:15 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.29 13:13:38 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.29 13:47:21 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.29 14:57:18 INFO  time: code lens generation in 4.53s
+Sep 29, 2023 2:57:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 566
+Sep 29, 2023 2:57:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 569
+2023.09.29 14:57:38 INFO  time: code lens generation in 1.19s
+Sep 29, 2023 2:57:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 574
+Sep 29, 2023 2:57:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 570
+Sep 29, 2023 2:57:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 572
+Sep 29, 2023 2:57:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 577
+2023.09.29 14:57:57 INFO  time: code lens generation in 7.86s
+Sep 29, 2023 2:57:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 584
+2023.09.29 14:57:59 INFO  time: code lens generation in 1.09s
+Sep 29, 2023 2:57:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 588
+Sep 29, 2023 2:57:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 585
+Sep 29, 2023 2:57:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 589
+2023.09.29 14:58:05 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+Sep 29, 2023 3:05:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 599
+Sep 29, 2023 3:05:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 600
+2023.09.29 15:05:34 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+Sep 29, 2023 3:05:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 611
+2023.09.29 15:05:36 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+Sep 29, 2023 3:05:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 614
+2023.09.29 15:05:39 INFO  time: code lens generation in 1.64s
+2023.09.29 15:05:39 INFO  time: code lens generation in 3.71s
+2023.09.29 15:05:40 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.29 15:05:42 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.29 15:05:45 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.29 15:05:50 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.29 15:13:53 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+Sep 29, 2023 4:59:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 688
+Sep 29, 2023 5:00:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 689
+2023.09.29 17:02:22 INFO  time: code lens generation in 3.18sSep 29, 2023 5:02:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 705
+
+Sep 29, 2023 5:02:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 706
+Sep 29, 2023 5:02:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 707
+2023.09.29 17:02:26 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+Sep 29, 2023 5:02:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 709
+2023.09.29 17:02:33 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\build.sbt
+2023.09.29 17:02:33 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.29 17:02:37 INFO  time: code lens generation in 3.97s
+2023.09.29 17:02:42 WARN  Could not find semantic tokens for: file:///D:/Akshat/CaseStudy/Adthena/build.sbt
+2023.09.29 17:03:43 INFO  running 'D:\Java\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Lenovo\AppData\Local\Temp\metals8821339251366624164\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.09.29 17:04:01 INFO  [info] welcome to sbt 1.9.6 (Oracle Corporation Java 17.0.2)
+2023.09.29 17:04:02 INFO  [info] loading settings for project adthena-build-build from metals.sbt ...
+2023.09.29 17:04:05 INFO  [info] loading project definition from D:\Akshat\CaseStudy\Adthena\project\project
+2023.09.29 17:04:12 INFO  [info] loading settings for project adthena-build from metals.sbt ...
+2023.09.29 17:04:12 INFO  [info] loading project definition from D:\Akshat\CaseStudy\Adthena\project
+2023.09.29 17:04:22 INFO  [success] Generated .bloop\adthena-build.json
+2023.09.29 17:04:22 INFO  [success] Total time: 10 s, completed 29-Sep-2023, 5:04:22 pm
+2023.09.29 17:04:26 INFO  [info] loading settings for project adthena from build.sbt ...
+2023.09.29 17:04:26 INFO  [info] set current project to adthena (in build file:/D:/Akshat/CaseStudy/Adthena/)
+2023.09.29 17:04:30 INFO  [success] Generated .bloop\adthena-test.json
+2023.09.29 17:04:30 INFO  [success] Generated .bloop\adthena.json
+2023.09.29 17:04:30 INFO  [success] Total time: 2 s, completed 29-Sep-2023, 5:04:30 pm
+2023.09.29 17:04:31 INFO  time: ran 'sbt bloopInstall' in 45s
+2023.09.29 17:04:33 INFO  Attempting to connect to the build server...
+2023.09.29 17:04:36 INFO  Setting up current java home D:\Java in C:\Users\Lenovo\.bloop\bloop.json
+2023.09.29 17:05:53 ERROR Starting the bsp launcher for bloop...
+2023.09.29 17:05:53 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 14268'...
+2023.09.29 17:05:53 ERROR Waiting for the bsp connection to come up...
+2023.09.29 17:05:53 ERROR Waiting for the bsp connection to come up...
+2023.09.29 17:05:53 ERROR Waiting for the bsp connection to come up...
+2023.09.29 17:05:53 ERROR Waiting for the bsp connection to come up...
+2023.09.29 17:05:53 ERROR Waiting for the bsp connection to come up...
+2023.09.29 17:05:53 ERROR Waiting for the bsp connection to come up...
+2023.09.29 17:05:53 ERROR Waiting for the bsp connection to come up...
+2023.09.29 17:05:53 ERROR Waiting for the bsp connection to come up...
+2023.09.29 17:05:53 ERROR Waiting for the bsp connection to come up...
+2023.09.29 17:05:53 ERROR Waiting for the bsp connection to come up...
+2023.09.29 17:05:53 ERROR Waiting for the bsp connection to come up...
+2023.09.29 17:05:53 ERROR Waiting for the bsp connection to come up...
+2023.09.29 17:05:53 ERROR Waiting for the bsp connection to come up...
+2023.09.29 17:05:53 ERROR Waiting for the bsp connection to come up...
+2023.09.29 17:05:53 ERROR Waiting for the bsp connection to come up...
+2023.09.29 17:05:53 ERROR Waiting for the bsp connection to come up...
+2023.09.29 17:05:53 ERROR Waiting for the bsp connection to come up...
+2023.09.29 17:05:53 ERROR Waiting for the bsp connection to come up...
+2023.09.29 17:05:53 ERROR Waiting for the bsp connection to come up...
+2023.09.29 17:05:53 ERROR Waiting for the bsp connection to come up...
+2023.09.29 17:05:53 ERROR Waiting for the bsp connection to come up...
+2023.09.29 17:05:53 ERROR Waiting for the bsp connection to come up...
+2023.09.29 17:05:53 ERROR Waiting for the bsp connection to come up...
+2023.09.29 17:05:53 ERROR Waiting for the bsp connection to come up...
+2023.09.29 17:05:53 ERROR Waiting for the bsp connection to come up...
+2023.09.29 17:05:53 ERROR Waiting for the bsp connection to come up...
+2023.09.29 17:05:53 ERROR Waiting for the bsp connection to come up...
+2023.09.29 17:05:53 ERROR Waiting for the bsp connection to come up...
+2023.09.29 17:05:53 ERROR Waiting for the bsp connection to come up...
+2023.09.29 17:05:53 ERROR Waiting for the bsp connection to come up...
+2023.09.29 17:05:53 ERROR Waiting for the bsp connection to come up...
+2023.09.29 17:05:53 ERROR error: Giving up on waiting for a connection, printing embedded bloop logs:
+2023.09.29 17:05:53 ERROR > No server running at 127.0.0.1:8212, let's fire one...
+2023.09.29 17:05:53 ERROR > Resolving ch.epfl.scala:bloop-frontend_2.12:1.5.8...
+2023.09.29 17:05:53 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2023.09.29 17:05:53 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:496)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.09.29 17:14:12 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+Sep 29, 2023 5:14:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 733
+Sep 29, 2023 5:14:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 734
+Sep 29, 2023 5:14:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 738
+2023.09.29 17:14:12 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.29 17:14:14 INFO  time: code lens generation in 2.13s
+2023.09.29 17:14:14 INFO  time: code lens generation in 2.07s
+2023.09.29 17:14:14 INFO  time: code lens generation in 2.09s
+2023.09.29 17:14:14 INFO  time: code lens generation in 2.1s
+2023.09.29 17:15:19 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.29 17:15:24 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.29 17:15:27 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala
+2023.09.29 17:15:28 INFO  time: code lens generation in 1.03s
+2023.09.29 17:15:30 WARN  no build target for: D:\Akshat\CaseStudy\Adthena\test\scala\BasketPricingTest.scala

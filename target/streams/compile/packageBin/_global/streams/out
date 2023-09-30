@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging D:\Akshat\CaseStudy\Adthena\target\scala-2.13\adthena_2.13-1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Akshat\CaseStudy\Adthena\target\scala-2.13\classes\com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\Adthena[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Akshat\CaseStudy\Adthena\target\scala-2.13\classes\com\Adthena[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\Adthena\BasketPricing$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Akshat\CaseStudy\Adthena\target\scala-2.13\classes\com\Adthena\BasketPricing$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\Adthena\BasketPricing.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Akshat\CaseStudy\Adthena\target\scala-2.13\classes\com\Adthena\BasketPricing.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\Adthena\Item$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Akshat\CaseStudy\Adthena\target\scala-2.13\classes\com\Adthena\Item$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\Adthena\Item.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Akshat\CaseStudy\Adthena\target\scala-2.13\classes\com\Adthena\Item.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

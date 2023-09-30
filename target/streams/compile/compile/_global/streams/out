@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mD:\Akshat\CaseStudy\Adthena\src\main\scala\BasketPricing.scala:23:49: value setScale is not a member of Double[0m
+[0m[[0m[31merror[0m] [0m[0m        val discount = (totalApplesPrice * 0.1).setScale(2, RoundingMode.HALF_UP).toDouble[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

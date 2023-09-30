@@ -1,0 +1,275 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "adthena-test",
+        "directory": "D:\\Akshat\\CaseStudy\\Adthena",
+        "workspaceDir": "D:\\Akshat\\CaseStudy\\Adthena",
+        "sources": [
+            "D:\\Akshat\\CaseStudy\\Adthena\\src\\test\\scala",
+            "D:\\Akshat\\CaseStudy\\Adthena\\src\\test\\scala-2.12",
+            "D:\\Akshat\\CaseStudy\\Adthena\\src\\test\\scala-2",
+            "D:\\Akshat\\CaseStudy\\Adthena\\src\\test\\java",
+            "D:\\Akshat\\CaseStudy\\Adthena\\target\\scala-2.12\\src_managed\\test"
+        ],
+        "dependencies": [
+            "adthena"
+        ],
+        "classpath": [
+            "D:\\Akshat\\CaseStudy\\Adthena\\.bloop\\adthena\\scala-2.12\\classes",
+            "C:\\Users\\Lenovo\\.sbt\\boot\\scala-2.12.18\\lib\\scala-library.jar",
+            "C:\\Users\\Lenovo\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalatest\\scalatest-funsuite_2.12\\3.2.17\\scalatest-funsuite_2.12-3.2.17.jar",
+            "C:\\Users\\Lenovo\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalatest\\scalatest-core_2.12\\3.2.17\\scalatest-core_2.12-3.2.17.jar",
+            "C:\\Users\\Lenovo\\.sbt\\boot\\scala-2.12.18\\lib\\scala-reflect.jar",
+            "C:\\Users\\Lenovo\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalatest\\scalatest-compatible\\3.2.17\\scalatest-compatible-3.2.17.jar",
+            "C:\\Users\\Lenovo\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalactic\\scalactic_2.12\\3.2.17\\scalactic_2.12-3.2.17.jar",
+            "C:\\Users\\Lenovo\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-xml_2.12\\2.1.0\\scala-xml_2.12-2.1.0.jar"
+        ],
+        "out": "D:\\Akshat\\CaseStudy\\Adthena\\.bloop\\adthena",
+        "classesDir": "D:\\Akshat\\CaseStudy\\Adthena\\.bloop\\adthena\\scala-2.12\\test-classes",
+        "resources": [
+            "D:\\Akshat\\CaseStudy\\Adthena\\src\\test\\resources",
+            "D:\\Akshat\\CaseStudy\\Adthena\\target\\scala-2.12\\resource_managed\\test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.18",
+            "options": [
+                
+            ],
+            "jars": [
+                "C:\\Users\\Lenovo\\.sbt\\boot\\scala-2.12.18\\lib\\scala-library.jar",
+                "C:\\Users\\Lenovo\\.sbt\\boot\\scala-2.12.18\\lib\\scala-compiler.jar",
+                "C:\\Users\\Lenovo\\.sbt\\boot\\scala-2.12.18\\lib\\scala-reflect.jar",
+                "C:\\Users\\Lenovo\\.sbt\\boot\\scala-2.12.18\\lib\\scala-xml_2.12-2.1.0.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "weaver.framework.CatsEffect"
+                    ]
+                },
+                {
+                    "names": [
+                        "hedgehog.sbt.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "D:\\Java",
+                "options": [
+                    "-Duser.dir=D:\\Akshat\\CaseStudy\\Adthena"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.18",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\Lenovo\\.sbt\\boot\\scala-2.12.18\\lib\\scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Lenovo\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.18\\scala-library-2.12.18-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.18",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\Lenovo\\.sbt\\boot\\scala-2.12.18\\lib\\scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Lenovo\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.18\\scala-library-2.12.18-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.12.18",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "C:\\Users\\Lenovo\\.sbt\\boot\\scala-2.12.18\\lib\\scala-reflect.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Lenovo\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.12.18\\scala-reflect-2.12.18-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-xml_2.12",
+                    "version": "2.1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-xml_2.12",
+                            "path": "C:\\Users\\Lenovo\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-xml_2.12\\2.1.0\\scala-xml_2.12-2.1.0.jar"
+                        },
+                        {
+                            "name": "scala-xml_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Lenovo\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-xml_2.12\\2.1.0\\scala-xml_2.12-2.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-funsuite_2.12",
+                    "version": "3.2.17",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-funsuite_2.12",
+                            "path": "C:\\Users\\Lenovo\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalatest\\scalatest-funsuite_2.12\\3.2.17\\scalatest-funsuite_2.12-3.2.17.jar"
+                        },
+                        {
+                            "name": "scalatest-funsuite_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Lenovo\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalatest\\scalatest-funsuite_2.12\\3.2.17\\scalatest-funsuite_2.12-3.2.17-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-core_2.12",
+                    "version": "3.2.17",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-core_2.12",
+                            "path": "C:\\Users\\Lenovo\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalatest\\scalatest-core_2.12\\3.2.17\\scalatest-core_2.12-3.2.17.jar"
+                        },
+                        {
+                            "name": "scalatest-core_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Lenovo\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalatest\\scalatest-core_2.12\\3.2.17\\scalatest-core_2.12-3.2.17-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-compatible",
+                    "version": "3.2.17",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-compatible",
+                            "path": "C:\\Users\\Lenovo\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalatest\\scalatest-compatible\\3.2.17\\scalatest-compatible-3.2.17.jar"
+                        },
+                        {
+                            "name": "scalatest-compatible",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Lenovo\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalatest\\scalatest-compatible\\3.2.17\\scalatest-compatible-3.2.17-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalactic",
+                    "name": "scalactic_2.12",
+                    "version": "3.2.17",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalactic_2.12",
+                            "path": "C:\\Users\\Lenovo\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalactic\\scalactic_2.12\\3.2.17\\scalactic_2.12-3.2.17.jar"
+                        },
+                        {
+                            "name": "scalactic_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Lenovo\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalactic\\scalactic_2.12\\3.2.17\\scalactic_2.12-3.2.17-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}

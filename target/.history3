@@ -1,0 +1,56 @@
+1696095005639:compile
+1696095051699:runMain com.Adthena.BasketPricing
+1696095079812:~compile
+1696095308141:compile
+1696095451243:test:testOnly com.Adthena.BasketPricingTest
+1696095564067:compile
+1696095565669:test:testOnly com.Adthena.BasketPricingTest
+1696095707248:clean
+1696095711870:compile
+1696095714741:test:testOnly com.Adthena.BasketPricingTest
+1696095938113:test:testOnly test.scala.com.Adthena.BasketPricingTest
+1696095945935:test:testOnly test.scala.com.Adthena.BasketPricingTest.scala
+1696095977423:test:testOnly test\\scala\\com\\Adthena\\BasketPricingTest.scala
+1696096000127:test:testOnly test/scala/com/Adthena/BasketPricingTest.scala
+1696096426455:compile
+1696096430272:test:testOnly test/scala/com/Adthena/BasketPricingTest.scala
+1696096448526:test:testOnly com.Adthena.BasketPricingTest.scala
+1696096570650:compile
+1696096575634:test:testOnly com.Adthena.BasketPricingTest.scala
+1696096581347:test
+1696096587687:test:testOnly
+1696096600097:test / testOnly com.Adthena.BasketPricingTest.scala
+1696096613665:Test / testOnly com.Adthena.BasketPricingTest.scala
+1696096621136:Test / testOnly com.Adthena.BasketPricingTest
+1696096827184:Test / testOnly *BasketPricingTest
+1696097061515:compile
+1696097185463:Test / testOnly *BasketPricingTest
+1696097258667:compile
+1696097260669:Test / testOnly *BasketPricingTest
+1696097885928:compile
+1696097896566:Test / testOnly *BasketPricingTest
+1696098080415:compile
+1696098083420:Test / testOnly *BasketPricingTest
+1696098103133:compile
+1696098105187:Test / testOnly *BasketPricingTest
+1696098410824:compile
+1696098414241:Test / testOnly *BasketPricingTest
+1696098468106:compile
+1696098470577:Test / testOnly *BasketPricingTest
+1696098488462:CLEAN
+1696098491215:clean
+1696098497014:compile
+1696098502023:Test / testOnly *BasketPricingTest
+1696098647750:compile
+1696098883731:Test / testOnly *BasketPricingTest
+1696099009477:compile
+1696099012803:Test / testOnly *BasketPricingTest
+1696099258027:compile
+1696099261051:Test / testOnly *BasketPricingTest
+1696099280577:compile
+1696099282534:Test / testOnly *BasketPricingTest
+1696099334623:compile
+1696099336839:Test / testOnly *BasketPricingTest
+1696099657160:compile
+1696099659326:Test / testOnly *BasketPricingTest
+1696099790269:run Bread Soup Soup Bread Apples

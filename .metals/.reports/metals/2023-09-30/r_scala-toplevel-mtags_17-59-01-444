@@ -1,0 +1,75 @@
+id: file:///D:/Akshat/CaseStudy/Adthena/main/scala/BasketPricing.scala:[156..160) in Input.VirtualFile("file:///D:/Akshat/CaseStudy/Adthena/main/scala/BasketPricing.scala", "import scala.io.StdIn
+import java.text.NumberFormat
+import java.util.Locale
+package com.
+
+
+// Define a case class to represent an item in the basket
+case class Item(name: String, price: Double)
+
+object BasketPricing {
+    // Define a map of items and their prices
+    val items = Map(
+        "Soup" -> Item("Soup", 0.65),
+        "Bread" -> Item("Bread", 0.80),
+        "Milk" -> Item("Milk", 1.30),
+        "Apples" -> Item("Apples", 1.00)
+        )
+
+    // Calculate the discount amount for Apples (10% off)
+    def applesDiscount(items: List[Item]): Double = {
+        val apples = items.filter(_.name == "Apples")
+        val totalApplesPrice = apples.map(_.price).sum
+        val discount = totalApplesPrice * 0.1
+        discount
+    }
+    // Calculate the discount amount for Bread (half price when buying 2 tins of Soup)
+    def soupBreadDiscount(items: List[Item]): Double = {
+        val soupCount = items.count(_.name == "Soup")
+        val breadCount = items.count(_.name == "Bread")
+        val eligibleBreadCount = soupCount / 2
+        val discount = eligibleBreadCount * items.find(_.name == "Bread").map(_.price).getOrElse(0.0) * 0.5
+        discount
+    }   
+
+    // Calculate the subtotal, discounts, and total price
+    def calculatePrice(items: List[Item]): Double = {
+  val subtotal = items.map(_.price).sum
+  val applesDiscountAmount = applesDiscount(items)
+  val soupBreadDiscountAmount = soupBreadDiscount(items)
+  val totalDiscount = applesDiscountAmount + soupBreadDiscountAmount
+  val totalPrice = subtotal - totalDiscount
+  val currencyFormatter = NumberFormat.getCurrencyInstance(Locale.UK)
+
+  println("Basket Items:")
+  items.groupBy(_.name).foreach { case (name, itemList) =>
+    val quantity = itemList.size
+    val price = itemList.head.price
+    println(s"$name - Quantity: $quantity, Price: ${currencyFormatter.format(price)}")
+  }
+
+  // Print the subtotal, discounts, and total price
+  println(s"Subtotal: ${currencyFormatter.format(subtotal)}")
+  if (totalDiscount > 0) {
+    println(s"Apples 10% off: ${currencyFormatter.format(applesDiscountAmount)}")
+    println(s"Total price: ${currencyFormatter.format(totalPrice)}")
+  } else {
+    println("(No offers available)")
+    println(s"Total price: ${currencyFormatter.format(totalPrice)}")
+  }
+
+  // Return the total price
+  totalPrice
+}
+
+    def main(args: Array[String]): Unit = {
+        // Get the basket items from command-line arguments and calculate the price
+        val basketItems = args.flatMap(items.get)
+        calculatePrice(basketItems.toList)
+    }
+}
+
+")
+file:///D:/Akshat/CaseStudy/Adthena/main/scala/BasketPricing.scala:8: error: expected identifier; obtained case
+case class Item(name: String, price: Double)
+^
